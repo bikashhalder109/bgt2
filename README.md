@@ -1,1 +1,4 @@
-<p align="center"><a href="https://t.me/esport_server"><img src="https://te.legra.ph/file/6d19949a7f7e12ebf970c.jpg"></a></p>
+
+### Deploy To Heroku
+
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/BikashHalder109/Bgt2)
