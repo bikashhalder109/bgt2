@@ -1,0 +1,42 @@
+{
+    "name": "Bgt Mysic Bot",
+    "description": "Telegram bot for Streaming  Music through the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
+    "logo": "https://te.legra.ph/file/a92c001312bba3497b0c6.jpg",
+    "keywords": [
+        "pytgcalls",
+        "telegram bot",
+        "pyrogram"
+    ],
+    "website": "https://t.me/AdityaServer",
+    "repository": "https://github.com/Bikashhalder109/Bgt2",
+    "success_url": "https://t.me/BikashGadgetsTech",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot Token",
+            "required": true
+        },
+        "STRING_SESSION": {
+            "description": "Your String Session",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        },
+        {
+            "url": "heroku/nodejs"
+        },
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    },
+    "stack": "container"
+    }
